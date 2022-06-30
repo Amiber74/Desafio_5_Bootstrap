@@ -1,21 +1,32 @@
 .header{
     height: 120px;
-    background-color: red;
+    background-color: #254692;
+    color: white;
+    text-shadow: 0 0 15px black;
 }
 .header {
     display: flex;
   align-items: center;
   justify-items: center;
 }
+ .borde {
+    border: 1px solid black;
+}
 li a{
     text-decoration: none;
-    color: black;
-    font-size: medium;
+    color:white;
 }
-
-
-
-
+div.video{
+    height: 45vh;
+}
+body{
+    background-image: url(../img/fondo-pagina);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+footer{
+    background-color: rgba(71, 61, 139, 0.651);
+}
 
 
 
