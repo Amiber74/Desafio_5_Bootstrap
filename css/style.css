@@ -1,3 +1,6 @@
+*{
+    font-family: 'Andika', sans-serif;
+}
 .header{
     height: 120px;
     background-color: #254692;
@@ -9,12 +12,15 @@
   align-items: center;
   justify-items: center;
 }
- .borde {
-    border: 1px solid black;
-}
 li a{
     text-decoration: none;
     color:white;
+    text-shadow: 0 0 15px black;
+}
+li p{
+    text-decoration: none;
+    color:white;
+    text-shadow: 0 0 15px black;
 }
 div.video{
     height: 45vh;
